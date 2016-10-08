@@ -1,0 +1,165 @@
+.activity-item .activity-item-icon, .user-feed .user-feed-image, .user-item .user-item-image, .module-item .module-item-image, .red-pocket-item .red-pocket-item-image {
+  line-height: 4.5rem;
+  position: absolute;
+  width: 4.5rem;
+  height: 4.5rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 4.5rem;
+}
+
+.user-item {
+  em {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 3.0rem;
+    padding-left: 6.0rem;
+  }
+
+  h5 {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    padding-left: 6.0rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  .user-item-icon-1, .user-item-icon-2, .user-item-icon-3 {
+    font-size: 1.1rem;
+    line-height: 3.0rem;
+    position: absolute;
+    top: 0.6rem;
+    height: 3.0rem;
+    text-align: center;
+    border-radius: 3.0rem;
+  }
+
+  .user-item-icon-1 {
+    right: 4.0rem;
+    width: 3.0rem;
+  }
+
+  .user-item-icon-2 {
+    right: 0;
+    width: 3.0rem;
+  }
+
+  .user-item-icon-3 {
+    right: 0;
+    width: 7.0rem;
+  }
+}
+
+.module-item {
+  $module-padding-left: 1.0rem;
+
+  margin-top: 1.0rem;
+
+  em {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 1.0rem;
+    padding-left: $module-padding-left;
+  }
+
+  h5 {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    padding-left: $module-padding-left;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  input:checkbox {
+    right: 0;
+    width: 7.0rem;
+  }
+
+  .decoration {
+    margin-bottom: 1.0rem;
+  }
+
+  .switch {
+    display: inline-block;
+    float: right;
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+
+  .module-sub {
+    padding: 1.0rem 3.0rem;
+
+    h3 {
+      font-size: 1rem;
+      margin-bottom: 0;
+      padding: 1.0rem 0 2.0rem 0;
+    }
+  }
+}
+
+.red-pocket-item {
+  $red-pocket-padding-left: 6.0rem;
+  $icon-height: 1.4rem;
+
+  margin-top: 1.0rem;
+
+  em {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 3.0rem;
+    padding-left: $red-pocket-padding-left;
+  }
+
+  h5 {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    padding-left: $red-pocket-padding-left;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  input:checkbox {
+    right: 0;
+    width: 7.0rem;
+  }
+
+  .red-pocket-item-amount {
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: 0.4rem 0.5rem;
+    color: #fff;
+    font-weight: bold;
+    line-height: $icon-height;
+    background-color: #c2060a;
+    margin-left: 1.5rem;
+    height: 1.8rem;
+    text-align: center;
+    border-radius: 0.5rem;
+  }
+}
+
+.user-feed {
+  em {
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 3.0rem;
+    padding-left: 6.0rem;
+  }
+
+  h5 {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    padding-left: 6.0rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+}

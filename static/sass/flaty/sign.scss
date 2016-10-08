@@ -1,0 +1,151 @@
+.page-login {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.page-login .page-login-logo {
+  width: 12.5rem;
+  height: 10.0rem;
+  margin-right: auto;
+  margin-bottom: 4.0rem;
+  margin-left: auto;
+  background-image: url(../images/pages-logo-dark.png);
+  background-size: 12.5rem 10.0rem;
+}
+
+.page-login .login-date input,
+.page-login .login-input input,
+.page-login .login-mail input,
+.page-login .login-password input {
+  font-size: 1.2rem;
+  line-height: 4.5rem;
+  display: block;
+  width: 100%;
+  height: 4.5rem;
+  margin-bottom: 2.0rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 5.0rem;
+  transition: all 250ms ease;
+  color: rgba(0, 0, 0, 0.5);
+  border-bottom: solid 0.2rem rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 1);
+  -webkit-appearance: none;
+}
+
+.page-login .login-date i,
+.page-login .login-input i,
+.page-login .login-mail i,
+.page-login .login-password i {
+  position: absolute;
+  z-index: 10;
+  width: 2.0rem;
+  margin-top: 1.4rem;
+  margin-left: 1.1rem;
+  text-align: center;
+  -webkit-appearance: none;
+}
+
+.page-login .login-date input:focus,
+.page-login .login-input input:focus,
+.page-login .login-mail input:focus,
+.page-login .login-password input:focus {
+  transition: all 250ms ease;
+  color: #1f1f1f;
+  border-bottom: solid 0.2rem #27ae60;
+}
+
+.page-login .login-already:hover,
+.page-login .login-create:hover,
+.page-login .login-forgot:hover {
+  transition: all 250ms ease;
+  color: #2e8ece;
+}
+
+.page-login .login-already i,
+.page-login .login-create i,
+.page-login .login-forgot i {
+  padding-right: 1.0rem;
+  padding-left: 1.0rem;
+}
+
+.page-login .login-already {
+  font-size: 1.2rem;
+  margin-bottom: 2.0rem;
+  transition: all 250ms ease;
+  text-align: center;
+  color: #cacaca;
+}
+
+.page-login .login-create,
+.page-login .login-forgot {
+  font-size: 1.2rem;
+  width: 50%;
+  margin-bottom: 3.0rem;
+  transition: all 250ms ease;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.page-login .login-create {
+  float: right;
+  text-align: right;
+}
+
+.page-login .login-forgot {
+  float: left;
+  text-align: left;
+}
+
+.pageapp-login {
+  width: 30.0rem;
+}
+
+@media (max-width: 33.1rem) {
+  .pageapp-login .page-login-logo {
+    display: none;
+    width: 10.2rem;
+    height: 8.1rem;
+    background-size: 10.2rem 8.1rem;
+  }
+}
+
+@media (min-width: 33.1rem) {
+  .pageapp-login .pageapp-login-logo {
+    width: 13.0rem;
+    height: 10.0rem;
+    background-size: 13.0rem 10.0rem;
+  }
+}
+
+.pageapp-login .pageapp-login-logo {
+  margin-right: auto;
+  margin-bottom: 2.0rem;
+  margin-left: auto;
+  background-image: url(../images/pages-logo-light.png);
+}
+
+.page-login b.code_send {
+  position: absolute;
+  top: .25rem;
+  right: .2rem;
+  width: 38%;
+  height: 4rem;
+  line-height: 4rem;
+  padding: 0;
+  font-size: 1.2rem;
+  background: #0696fa;
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.page-login b.code_send var {
+  font-family: Arial;
+}
+
+.page-login b.code_send.no {
+  background: #999;
+}

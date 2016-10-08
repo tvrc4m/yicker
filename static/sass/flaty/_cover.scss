@@ -1,0 +1,79 @@
+.cover-page, .cover-screen {
+  background-position: center center;
+}
+
+.cover-page {
+  position: relative;
+  background-size: cover;
+
+  .overlay {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #c2060a;
+    opacity: .8;
+  }
+}
+
+.cover-404 {
+  .overlay {
+    background-color: #ffffff;
+  }
+}
+
+.cover-image {
+  background-size: cover;
+  background-position: center center;
+}
+
+.cover-page-content {
+  z-index: 2;
+}
+
+.cover-buttons {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  width: 100%;
+  padding: 2.0rem;
+
+  .page-error {
+    width: 30.0rem;
+  }
+}
+
+.cover-center, .cover-left, .cover-right {
+  position: absolute;
+  z-index: 10;
+}
+
+.cover-buttons {
+  color: rgba(255, 255, 255, 0.5);
+
+  .cover-button-left {
+    float: left;
+  }
+
+  .cover-button-right {
+    float: right;
+  }
+}
+
+.unboxed-layout {
+  .page-error {
+    a {
+      width: 7.0rem;
+      height: 7.0rem;
+      line-height: 6.5rem;
+      font-size: 2.0rem;
+      margin: 0 auto;
+      text-align: center;
+      color: $main-color;
+      border-radius: 7.0rem;
+      border: 0.2rem solid #000;
+    }
+  }
+}

@@ -1,0 +1,81 @@
+@mixin user-select($select) {
+  -webkit-user-select: $select;
+  -moz-user-select: $select;
+  -ms-user-select: $select;
+
+  // IE10+
+  user-select: $select;
+}
+
+@mixin translate3d($x, $y, $z) {
+  -webkit-transform: translate3d($x, $y, $z);
+  transform: translate3d($x, $y, $z);
+}
+
+@mixin box-sizing($boxmodel) {
+  -webkit-box-sizing: $boxmodel;
+  -moz-box-sizing: $boxmodel;
+  box-sizing: $boxmodel;
+}
+
+@mixin border-top-radius($radius) {
+  border-top-right-radius: $radius;
+  border-top-left-radius: $radius;
+}
+
+@mixin border-right-radius($radius) {
+  border-bottom-right-radius: $radius;
+  border-top-right-radius: $radius;
+}
+
+@mixin border-bottom-radius($radius) {
+  border-bottom-right-radius: $radius;
+  border-bottom-left-radius: $radius;
+}
+
+@mixin border-left-radius($radius) {
+  border-bottom-left-radius: $radius;
+  border-top-left-radius: $radius;
+}
+
+// Transitions
+
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+  -o-transition: $transition;
+  transition: $transition;
+}
+
+@mixin transition-property($transition-property) {
+  -webkit-transition-property: $transition-property;
+  transition-property: $transition-property;
+}
+
+@mixin transition-delay($transition-delay) {
+  -webkit-transition-delay: $transition-delay;
+  transition-delay: $transition-delay;
+}
+
+@mixin transition-duration($transition-duration) {
+  -webkit-transition-duration: $transition-duration;
+  transition-duration: $transition-duration;
+}
+
+@mixin transition-timing-function($timing-function) {
+  -webkit-transition-timing-function: $timing-function;
+  transition-timing-function: $timing-function;
+}
+
+@mixin transition-transform($transition) {
+  -webkit-transition: -webkit-transform $transition;
+  -moz-transition: -moz-transform $transition;
+  -o-transition: -o-transform $transition;
+  transition: transform $transition;
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+
+  // $opacity-ie: ($opacity * 100);
+  // filter: ~"alpha(opacity=#{$opacity-ie})";
+}

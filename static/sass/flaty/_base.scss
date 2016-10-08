@@ -1,0 +1,189 @@
+.disabled, .hidden {
+  display: none !important;
+}
+.hide{
+  display: none;
+}
+
+.decoration {
+  display: block;
+  clear: both !important;
+  width: 100%;
+  height: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.decoration-lines div {
+  float: left;
+  width: 10%;
+  height: 0.5rem;
+}
+
+.clear {
+  clear: both !important;
+}
+
+.last-column {
+  margin-right: 0 !important;
+}
+
+.no-bottom {
+  margin-bottom: 0 !important;
+}
+
+.half-top {
+  margin-top: 1.5rem !important;
+}
+
+.full-bottom {
+  margin-bottom: 3.0rem !important;
+}
+
+.full-top {
+  margin-top: 3.0rem !important;
+}
+
+.left-padding {
+  padding-left: 3.0rem;
+}
+
+.right-padding {
+  padding-right: 3.0rem;
+}
+
+.padding-right {
+  padding-right: 2.0rem;
+}
+
+.padding-left {
+  padding-left: 2.0rem;
+}
+
+.no-border {
+  border: none !important;
+}
+
+.last-column:after {
+  display: block !important;
+  visibility: hidden !important;
+  clear: both !important;
+  height: 0 !important;
+  content: "" !important;
+}
+
+.container {
+  display: block;
+}
+
+.hide-if-mobile {
+  display: none !important;
+}
+
+.hide-if-resposive {
+  display: block !important;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.thin {
+  font-weight: 300 !important;
+}
+
+.thiner {
+  font-weight: 400 !important;
+}
+
+.bold {
+  font-weight: 600 !important;
+}
+
+.ultrabold {
+  font-weight: 1000 !important;
+}
+
+.smaller-text {
+  font-size: 1.3rem;
+}
+
+.larger-text {
+  font-size: 1.5rem;
+}
+
+.large-text {
+  font-size: 1.6rem;
+}
+
+.center-text {
+  display: block;
+  text-align: center;
+}
+
+.left-text {
+  display: block;
+  text-align: left;
+}
+
+.right-text {
+  display: block;
+  text-align: right;
+}
+
+.center-text-mobile {
+  display: block;
+  text-align: center;
+}
+
+.left-text-mobile {
+  display: block;
+  text-align: left;
+}
+
+.right-text-mobile {
+  display: block;
+  text-align: right;
+}
+
+.center-text-tablet, .left-text-tablet, .right-text-tablet {
+  display: block;
+  text-align: left;
+}
+
+.space-left {
+  padding-left: 1.0rem;
+}
+
+.space-right {
+  padding-right: 1.0rem;
+}
+
+.float-left {
+  float: left;
+  margin-top: 1.0rem;
+  margin-right: 1.0rem;
+}
+
+.float-right {
+  float: right;
+  margin-top: 1.0rem;
+  margin-left: 1.0rem;
+}
+.text-notice{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0.0rem 100.0rem white inset;
+  color: #666;
+  border: 0.1rem solid #cacaca;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 1.5rem;
+  padding-right: 1.0rem;
+  padding-left: 1.0rem;
+}

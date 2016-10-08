@@ -1,0 +1,117 @@
+.icon-field {
+  i:first-child {
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    width: 4.0rem;
+    text-align: center;
+    z-index: 100;
+  }
+  i.remove{
+    position: absolute;
+    top: 1.5rem;
+    right: 0;
+    width: 4.0rem;
+    text-align: center;
+    z-index: 100;
+    color:$main-color;
+  }
+}
+
+.text-container {
+  font-size: 1.4rem;
+  font-weight: 500;
+
+  p {
+    font-size: 1.4rem;
+    margin-bottom: 1.0rem;
+    color: $text-title-color;
+    font-weight: 900;
+  }
+}
+
+.text-field {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  width: 100%;
+  height: 4.5rem;
+  display: block;
+  margin-bottom: 1.5rem;
+  padding-right: 1.0rem;
+  padding-left: 1.0rem;
+  color: #666;
+  vertical-align: middle;
+  border: 0.1rem solid #cacaca;
+  background-color: rgba(255, 255, 255, 0.4);
+  letter-spacing: 0.04rem;
+
+  .icon-field &, .text-icon-field & {
+    padding-left: 4.5rem !important;
+  }
+
+  &.disable, &.disable:hover, &.disable:focus {
+    border: 0.1rem solid #cacaca;
+  }
+
+  &[type=date], &[type=time] {
+    line-height: 4.5rem;
+  }
+}
+
+.green-field:focus {
+  border: 0.1rem solid #2cc36b;
+}
+
+.red-field:focus {
+  border: 0.1rem solid #c0392b;
+}
+
+.checkbox, .radiobox {
+  line-height: 2.4rem;
+  float: left;
+  margin-top: 0.9rem;
+  margin-right: 1.0rem;
+  margin-left: 1.0rem;
+}
+
+.checkbox {
+  -moz-appearance: checkbox !important;
+  -webkit-appearance: checkbox !important;
+  appearance: checkbox !important;
+}
+
+.radiobox {
+  -moz-appearance: radio !important;
+  -webkit-appearance: radio !important;
+  appearance: radio !important;
+}
+
+select.select-field {
+  width: 100%;
+  height: 4.0rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding-left: 1.0rem;
+  padding-right: 1.0rem;
+  line-height: 100%;
+  margin-bottom: 2.0rem;
+  transition: all 250ms ease;
+  color: #7f8c8d;
+}
+
+textarea.area-field {
+  width: 100%;
+  height: 12.0rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding: 1.0rem;
+  line-height: 2.2rem;
+  font-size: 1.4rem;
+  margin-bottom: 2.0rem;
+  transition: all 250ms ease;
+  color: #7f8c8d;
+}
+
+.forgot-password {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}

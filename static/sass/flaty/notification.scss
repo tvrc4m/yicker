@@ -1,0 +1,62 @@
+.no-dismiss p, .tap-dismiss p {
+  padding-left: 5.0rem;
+}
+
+.static-notification-icon {
+  padding-right: 2.0rem;
+}
+
+.static-notification {
+  margin: 1.5rem 0;
+  padding: 1.0rem;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+
+  h6 {
+    font-weight: 500;
+    padding-bottom: 1.0rem;
+    color: #fff;
+    border-bottom: solid 0.1rem rgba(255, 255, 255, 0.2);
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    color: #fff;
+  }
+}
+
+.static-notification-close {
+  line-height: 5.0rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 0;
+  width: 5.0rem;
+  height: 5.0rem;
+  text-align: center;
+  color: #fff;
+}
+
+.error-notification {
+  margin-bottom: 1.0rem;
+  padding-left: 0.5rem;
+
+  h6 {
+    font-weight: 500;
+    padding-bottom: 1.0rem;
+    border-bottom: solid 0.1rem rgba(255, 255, 255, 0.2);
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+}
+.error-container{
+  text-align: left;
+  p{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    color: $main-color;
+  }
+}

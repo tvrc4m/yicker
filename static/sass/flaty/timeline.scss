@@ -1,0 +1,218 @@
+.map-fullscreen .overlay,
+.pageapp-timeline-1 .timeline-icon i {
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+}
+
+.pageapp-timeline-1 {
+  overflow: hidden;
+  margin-top: -2.0rem;
+}
+
+.pageapp-timeline-1 .timeline-decoration {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0.1rem;
+  height: 1000.0rem;
+  margin-left: -1px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.pageapp-timeline-1 p {
+  margin-bottom: 0.5rem;
+}
+
+.pageapp-timeline-1 .timeline-event,
+.pageapp-timeline-1 .timeline-image,
+.pageapp-timeline-1 .timeline-quote,
+.pageapp-timeline-1 .timeline-text,
+.pageapp-timeline-1 .timeline-video {
+  display: block;
+  padding-top: 2.0rem;
+  padding-bottom: 2.0rem;
+  background-color: #ececec;
+}
+
+.pageapp-timeline-1 .timeline-icon {
+  display: block;
+  margin-top: 2.0rem;
+  margin-bottom: 2.0rem;
+  padding-top: 2.0rem;
+  padding-bottom: 0.2rem;
+  background-color: #ececec;
+}
+
+.pageapp-timeline-1 .timeline-icon i {
+  font-size: 1.8rem;
+  line-height: 6.0rem;
+  display: block;
+  width: 6.0rem;
+  height: 6.0rem;
+  margin-right: auto;
+  margin-bottom: 2.0rem;
+  margin-left: auto;
+  transition: all 250ms ease;
+  text-align: center;
+  color: #1f1f1f;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 6.0rem;
+  background-color: #ececec;
+}
+
+.pageapp-timeline-1 .gallery img,
+.pageapp-timeline-1 .responsive-image {
+  margin-bottom: 1.0rem;
+  padding: 0.3rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.pageapp-timeline-1 .timeline-event .event-link i,
+.pageapp-timeline-1 .timeline-event .event-maps i {
+  padding-right: 1.0rem;
+}
+
+.pageapp-timeline-1 .timeline-event .event-link {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.pageapp-timeline-1 .timeline-event .event-maps {
+  font-size: 1.2rem;
+  margin-bottom: 1.0rem;
+  text-align: center;
+}
+
+.pageapp-timeline-1 .timeline-event .gallery a {
+  padding-bottom: 0;
+}
+
+.pageapp-timeline-2 {
+  margin-top: 3.0rem;
+}
+
+.pageapp-timeline-2 .timeline-item {
+  position: relative;
+  z-index: 10 !important;
+}
+
+.pageapp-timeline-2 .timeline-decoration {
+  position: absolute;
+  z-index: 2;
+  width: 0.1rem;
+  height: 96%;
+  margin-left: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.pageapp-timeline-2 .timeline-icon {
+  position: relative;
+  z-index: 9;
+  float: left;
+  width: 7.0rem;
+  height: 100%;
+}
+
+.pageapp-timeline-2 .timeline-text {
+  display: inline-block;
+  width: 100%;
+  min-height: 10.0rem;
+  margin-top: -4.8rem;
+  padding-left: 7.0rem;
+}
+
+.pageapp-timeline-2 .timeline-text .subtitle {
+  font-size: 1.1rem;
+  font-style: normal;
+  display: block;
+  margin-top: -1.0rem;
+  margin-bottom: 2.0rem;
+  color: #e34e47;
+}
+
+.pageapp-timeline-2 .timeline-text p {
+  margin-top: -1.0rem;
+}
+
+.pageapp-timeline-2 .timeline-icon i {
+  font-size: 1.7rem;
+  line-height: 5.0rem;
+  width: 5.0rem;
+  height: 5.0rem;
+  margin-right: auto;
+  margin-left: auto;
+  cursor: pointer;
+  text-align: center;
+  color: #1f1f1f;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 5.0rem;
+  background-color: #ececec;
+}
+
+.pageapp-timeline-2 .timeline-quote .title {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 3.0rem;
+  margin-top: -1.0rem;
+  margin-bottom: 2.0rem;
+}
+
+.pageapp-timeline-2 .timeline-quote .subtitle {
+  display: block;
+  text-align: right;
+}
+
+@media (min-width: 76.8rem) {
+  .pageapp-timeline-2 {
+    padding-right: 3.0rem;
+    padding-left: 3.0rem;
+  }
+
+  .pageapp-timeline-2 .timeline-decoration {
+    position: absolute;
+    z-index: 2;
+    width: 0.1rem;
+    height: 96%;
+    margin-left: 3.2rem;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .pageapp-timeline-2 .timeline-icon {
+    display: inline;
+    float: left;
+    width: 15.0rem;
+    height: 100%;
+  }
+
+  .pageapp-timeline-2 .timeline-text {
+    display: inline-block;
+    margin-top: -5.2rem;
+    padding-left: 10.0rem;
+  }
+
+  .pageapp-timeline-2 .timeline-icon i {
+    font-size: 1.7rem;
+    line-height: 6.5rem;
+    width: 6.5rem;
+    height: 6.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    text-align: center;
+    color: #1f1f1f;
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    border-radius: 6.5rem;
+    background-color: #fff;
+  }
+
+  .pageapp-timeline-2 .timeline-quote .title {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 3.0rem;
+    margin-top: -3px;
+    margin-bottom: 2.0rem;
+  }
+}

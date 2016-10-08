@@ -1,0 +1,106 @@
+$navbar-height: 6rem;
+$navbar-item-width:4.5rem;
+$navbar-item-color:#ffffff;
+
+.header-fixed {
+  line-height: $navbar-height;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  height: $navbar-height;
+  color: $navbar-item-color;
+  border-bottom: solid 0.1rem rgba(0, 0, 0, 0.1);
+  background-color: #c2060a;
+}
+
+.header-right {
+  width: $navbar-item-width;
+  float: right;
+  display: inline-block;
+}
+
+.header-icon-left {
+  line-height: $navbar-height;
+  float: left;
+  width: $navbar-item-width;
+  height: $navbar-height;
+  font-weight: 600;
+  text-align: center;
+  color: $navbar-item-color;
+  font-size: 1.5rem;
+  vertical-align: baseline;
+}
+
+.header-icon-right {
+  width: $navbar-item-width;
+  line-height: $navbar-height;
+  float: right;
+  height: $navbar-height;
+  font-weight: 600;
+  margin-top: -$navbar-height;
+  text-align: center;
+  color: $navbar-item-color;
+  font-size: 1.5rem;
+  vertical-align: baseline;
+
+  &.first {
+    right: 0;
+    width: $navbar-item-width;
+  }
+
+  &.second {
+    right: $navbar-item-width;
+    width: $navbar-item-width;
+  }
+  &.third{
+    right: $navbar-item-width*2;
+    width: $navbar-item-width;
+  }
+}
+
+.header-title {
+  font-family: Raleway,sans-serif;
+  font-size: 1.6rem;
+  line-height: $navbar-height;
+  font-weight: 600;
+  margin-right: $navbar-item-width;
+  margin-left: $navbar-item-width;
+  text-align: center;
+  color: $navbar-item-color;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.image-thumb-left strong, .image-thumb-right strong {
+  font-family: Roboto,sans-serif;
+  font-weight: 600;
+  display: block;
+}
+
+.header-mask a:nth-child(1) {
+  line-height: 6.0rem;
+  width: 6.0rem;
+  height: 6.0rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header-mask a:nth-child(2) {
+  font-size: 2.6rem;
+  line-height: 6.0rem;
+  display: block;
+  width: 50%;
+  height: 6.0rem;
+  margin-top: -6.0rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+.header-mask a:nth-child(3) {
+  width: 6.0rem;
+}

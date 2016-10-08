@@ -1,0 +1,382 @@
+.bg-teal-light {
+  color: #fff;
+  background-color: #1abc9c !important;
+
+  &:hover {
+    transition: all .2s ease;
+    color: #fff !important;
+    background-color: #1abc9c !important;
+  }
+}
+
+.bg-teal-dark {
+  color: #fff;
+  background-color: #16a085 !important;
+
+  &:hover {
+    transition: all .2s ease;
+    color: #fff !important;
+    background-color: #16a085 !important;
+  }
+}
+
+.color-teal-light {
+  color: #1abc9c;
+}
+
+.color-teal-dark {
+  color: #16a085;
+}
+
+.bg-green-light {
+  color: #fff;
+  background-color: #2ecc71 !important;
+
+  &:hover {
+    transition: all .2s ease;
+    color: #fff !important;
+    background-color: #2ecc71 !important;
+  }
+}
+
+.bg-green-dark {
+  color: #fff;
+  background-color: #2abb67 !important;
+
+  &:hover {
+    transition: all .2s ease;
+    color: #fff !important;
+    background-color: #2abb67 !important;
+  }
+}
+
+.color-green-light {
+  color: #2ecc71;
+}
+
+.color-green-dark {
+  color: #2abb67;
+}
+
+.bg-blue-light {
+  color: #fff;
+  background-color: #3498db !important;
+
+  &:hover {
+    transition: all .2s ease;
+    color: #fff !important;
+    background-color: #3498db !important;
+  }
+}
+
+.bg-blue-dark {
+  color: #fff;
+  background-color: #2980b9 !important;
+
+  &:hover {
+    transition: all .2s ease;
+    color: #fff !important;
+    background-color: #2980b9 !important;
+  }
+}
+
+.color-blue-light {
+  color: #3498db;
+}
+
+.color-blue-dark {
+  color: #2980b9;
+}
+
+.bg-magenta-light {
+  color: #fff;
+  background-color: #9b59b6 !important;
+
+  &:hover {
+    transition: all .2s ease;
+    color: #fff !important;
+    background-color: #9b59b6 !important;
+  }
+}
+
+.bg-magenta-dark {
+  color: #fff;
+  background-color: #8e44ad !important;
+
+  &:hover {
+    transition: all .2s ease;
+    color: #fff !important;
+    background-color: #8e44ad !important;
+  }
+}
+
+.color-magenta-light {
+  color: #9b59b6;
+}
+
+.color-magenta-dark {
+  color: #8e44ad;
+}
+
+.bg-night-light {
+  color: #fff;
+  background-color: #34495e !important;
+}
+
+.bg-night-dark {
+  color: #fff;
+  background-color: #2c3e50 !important;
+}
+
+.bg-hover-night-light:hover {
+  transition: all .2s ease;
+  color: #fff !important;
+  background-color: #34495e !important;
+}
+
+.bg-hover-night-dark:hover {
+  transition: all .2s ease;
+  color: #fff !important;
+  background-color: #2c3e50 !important;
+}
+
+.color-night-light {
+  color: #34495e;
+}
+
+.color-night-dark {
+  color: #2c3e50;
+}
+
+.bg-yellow-light {
+  color: #fff;
+  background-color: #e67e22 !important;
+}
+
+.bg-yellow-dark {
+  color: #fff;
+  background-color: #f27935 !important;
+}
+
+.bg-hover-yellow-light:hover {
+  transition: all .2s ease;
+  color: #fff !important;
+  background-color: #f1c40f !important;
+}
+
+.bg-hover-yellow-dark:hover {
+  transition: all .2s ease;
+  color: #fff !important;
+  background-color: #f39c12 !important;
+}
+
+.color-yellow-light {
+  color: #f1c40f;
+}
+
+.color-yellow-dark {
+  color: #f39c12;
+}
+
+.bg-orange-light {
+  color: #fff;
+  background-color: #f9690e !important;
+}
+
+.bg-orange-dark {
+  color: #fff;
+  background-color: #d35400 !important;
+}
+
+.bg-hover-orange-light:hover {
+  transition: all .2s ease;
+  color: #fff !important;
+  background-color: #e67e22 !important;
+}
+
+.bg-hover-orange-dark:hover {
+  transition: all .2s ease;
+  color: #fff !important;
+  background-color: #d35400 !important;
+}
+
+.color-orange-light {
+  color: #e67e22;
+}
+
+.color-orange-dark {
+  color: #d35400;
+}
+
+.bg-red-light {
+  color: #fff;
+  background-color: #e74c3c !important;
+}
+
+.bg-red-dark {
+  color: #fff;
+  background-color: #c0392b !important;
+}
+
+.bg-hover-red-light:hover {
+  transition: all .2s ease;
+  color: #fff !important;
+  background-color: #e74c3c !important;
+}
+
+.bg-hover-red-dark:hover {
+  transition: all .2s ease;
+  color: #fff !important;
+  background-color: #c0392b !important;
+}
+
+.color-red-light {
+  color: #e74c3c;
+}
+
+.color-red-dark {
+  color: #c0392b;
+}
+
+.bg-gray-light {
+  color: #fff;
+  background-color: #bdc3c7 !important;
+}
+
+.bg-gray-dark {
+  color: #fff;
+  background-color: #95a5a6 !important;
+}
+
+.bg-hover-gray-light:hover {
+  transition: all .2s ease;
+  color: #fff !important;
+  background-color: #bdc3c7 !important;
+}
+
+.bg-hover-gray-dark:hover {
+  transition: all .2s ease;
+  color: #fff !important;
+  background-color: #95a5a6 !important;
+}
+
+.green-field:focus,
+.red-field:focus,
+.text-field {
+  transition: all 250ms ease;
+}
+
+.color-gray-light {
+  color: #bdc3c7;
+}
+
+.color-gray-dark {
+  olor: #95a5a6;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.color-black {
+  color: #000;
+}
+
+.bg-gray-dark i,
+.bg-gray-light i,
+.bg-green-dark i,
+.bg-green-light i,
+.bg-magenta-dark i,
+.bg-magenta-light i,
+.bg-orange-dark i,
+.bg-orange-light i,
+.bg-red-dark i,
+.bg-red-light i,
+.bg-teal-dark i,
+.bg-teal-light i,
+.bg-yellow-dark i,
+.bg-yellow-light i {
+  color: #fff;
+}
+
+.cover-image {
+  background-position: center center;
+  background-size: cover;
+}
+
+.facebook-color {
+  color: #fff;
+  background-color: #3b5998;
+}
+
+.twitter-color {
+  color: #fff;
+  background-color: #4099ff;
+}
+
+.google-color {
+  color: #fff;
+  background-color: #d34836;
+}
+
+.pinterest-color {
+  color: #fff;
+  background-color: #c92228;
+}
+
+.sms-color {
+  color: #fff;
+  background-color: #27ae60;
+}
+
+.mail-color {
+  color: #fff;
+  background-color: #3498db;
+}
+
+.dribbble-color {
+  color: #fff;
+  background-color: #ea4c89;
+}
+
+.tumblr-color {
+  color: #fff;
+  background-color: #2c3d52;
+}
+
+.reddit-color {
+  color: #fff;
+  background-color: #369;
+}
+
+.youtube-color {
+  color: #fff;
+  background-color: #d12827;
+}
+
+.phone-color {
+  color: #fff;
+  background-color: #27ae60;
+}
+
+.dribbble-color:hover,
+.facebook-color:hover,
+.google-color:hover,
+.mail-color:hover,
+.phone-color:hover,
+.pinterest-color:hover,
+.reddit-color:hover,
+.sms-color:hover,
+.tumblr-color:hover,
+.twitter-color:hover,
+.youtube-color:hover {
+  color: #fff;
+}

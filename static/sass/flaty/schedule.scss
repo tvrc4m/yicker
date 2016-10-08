@@ -1,0 +1,81 @@
+.reminder-check-round, .reminder-check-square {
+  background-repeat: no-repeat;
+  background-position: 1.0rem 4.0rem;
+  background-size: 1.6rem 1.8rem;
+}
+
+.checklist-round-selected {
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.3);
+  background-image: url(../img/radioc.png);
+
+  &:hover {
+    text-decoration: line-through !important;
+  }
+}
+
+.reminder-check-square {
+  background-image: url(../img/checkbox.png);
+}
+
+.reminder-check-round {
+  background-image: url(../img/radio.png);
+}
+
+.reminder-check-square-selected {
+  background-image: url(../img/checkboxc.png);
+}
+
+.reminder-check-round-selected {
+  background-image: url(../img/radioc.png);
+}
+
+.reminder-check-round-selected em,
+.reminder-check-round-selected strong,
+.reminder-check-square-selected em,
+.reminder-check-square-selected strong {
+  transition: all .2s ease;
+  opacity: .3;
+}
+
+.reminder {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: solid 0.1rem rgba(0, 0, 0, 0.1);
+
+  i {
+    padding-right: 1.0rem;
+  }
+
+  em, strong {
+    display: block;
+    padding-left: 5.0rem;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+    -ms-transition: all 250ms ease;
+    -o-transition: all 250ms ease;
+
+    &.clear_padding {
+      padding-left: 1.0rem;
+    }
+  }
+
+  em {
+    font-size: 1.2rem;
+    font-style: normal;
+    transition: all 250ms ease;
+  }
+
+  strong {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: -4px;
+    transition: all 250ms ease;
+    color: #1f1f1f;
+  }
+}

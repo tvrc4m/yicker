@@ -1,0 +1,62 @@
+.one-half-responsive{
+  width: 100%;
+}
+@media (max-width: 76.8rem) {
+  .one-half {
+    float: left;
+    width: 45%;
+    margin-right: 10%;
+  }
+
+  .one-third {
+    float: left;
+    width: 28%;
+    margin-right: 8%;
+  }
+
+  .one-half-responsive, .one-third-responsive {
+    width: 100%;
+  }
+}
+
+@media (min-width: 76.7rem) {
+  .one-half, .one-half-responsive {
+    float: left;
+    width: 100%;
+    margin-right: 10%;
+  }
+
+  .one-third, .one-third-responsive {
+    float: left;
+    width: 28%;
+    margin-right: 8%;
+  }
+
+  .one-forth-responsive {
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+  }
+
+  .sidebar-left-big {
+    float: left;
+    width: 70%;
+    margin-right: 5%;
+  }
+
+  .sidebar-right-small {
+    float: right;
+    width: 25%;
+  }
+
+  .sidebar-right-big {
+    float: right;
+    width: 70%;
+  }
+
+  .sidebar-left-small {
+    float: left;
+    width: 25%;
+    margin-right: 5%;
+  }
+}
